@@ -1,0 +1,51 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#container{
+    width: 720px;
+    height: 680px;
+    margin: 0 auto;
+}
+fieldset{
+    padding: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    text-transform: uppercase;
+    width: 20em;
+}
+input#email {
+    text-transform: lowercase;
+}
+input#url{
+    text-transform: none;
+}
+textarea{
+    width: 20em;
+    height: 10em;
+    resize: none;
+}
+input[type="radio"]{
+    width: auto;
+    margin-right: 1em;
+}
+#enviar{
+    width: 80px;
+    margin-left: 320px;
+}
+input#enviar{
+    text-transform: none;
+    border: 1px solid #c3c3c4
+}
+input#enviar:hover{
+    background: #c3c3c0;
+}
